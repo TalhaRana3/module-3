@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: gray;
+}
+a.navbar-brand {
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+.lists{
+    background-color: gray;
+    color: black;
+}
+
+
+@media only screen and (min-width: 400px) {
+    a.nav-link {
+        text-align: center;
+    }
+    a.nav-link {
+        border-bottom: 2px solid white;
+    }
+    ul.navbar-nav.ml-auto {
+        background: white;
+    }
+}
+@media only screen and (min-width: 1300px){
+    a.nav-link {
+        border-bottom: none;
+    }
+    ul.navbar-nav.ml-auto {
+        background: gray;
+    }
+}
